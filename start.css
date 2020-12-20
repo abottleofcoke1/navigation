@@ -1,0 +1,192 @@
+body {
+	
+	height: 100vh;
+    max-width: 888px;
+	max-height: 682px;
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+	font-family: Calibri;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.registerHeader {
+	
+	margin-top: 235px;
+	margin-bottom: 10px;
+	margin-left: 207px;
+	font-size: 44px;
+	color: #E5E4E2;
+}
+
+.loginHeader {
+	
+	margin-top: 235px;
+	margin-bottom: 10px;
+	margin-left: 420px; 
+    font-size: 44px;
+	color: #E5E4E2;
+}
+
+.registerHeaderSpace {
+	
+	display: inline-block;
+}
+
+.loginHeaderSpace {
+	
+	display: inline-block;
+}
+
+.loginParagraph {
+	
+	margin-top: 0px;
+	margin-left: 403px;
+	font-size: 22px;
+	color: #D1D0CE;
+}
+
+.loginParagraphSpace {
+	
+	display: block;
+}
+
+.loginButton {
+
+	margin-left: 425px;
+	border-right: solid #2B60DE 3px;
+	border-left: solid #1F45FC 3px;
+	border-top: solid #2554C7 3px;
+	border-bottom: solid #2B65EC 3px;
+	border-radius: 11px;
+	padding: 4px 1px;
+	width: 85px;
+	outline: none;
+	background-color: black;
+	color: white;
+	font-family: Candara;
+	font-size: 25px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.loginSpace {
+	
+	display: inline-block;
+}
+
+.registerButton {
+	
+	margin-left: 248px;
+	border-right: solid #2B60DE 3px;
+	border-left: solid #1F45FC 3px;
+	border-top: solid #2554C7 3px;
+	border-bottom: solid #2B65EC 3px;
+	border-radius: 11px;
+	padding: 4px 1px;
+	width: 85px;
+	outline: none;
+	background-color: black;
+	color: white;
+	font-family: Candara;
+	font-size: 25px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.registerSpace {
+	
+	display: inline-block;
+}
+
+.registerHeader:hover {
+	
+	font-size: 46px;
+	transition: 0.25s;
+}
+
+.loginHeader:hover {
+	
+	font-size: 46px;
+	transition: 0.25s;
+}
+
+
+.loginParagraph:hover {
+	
+	font-weight: 900;
+	font-size: 23px;
+	transition: 0.25s;
+}
+
+.loginButton:hover {
+	
+	border-right: solid #4AA02C 2px;
+	border-left: solid #87F717 2px;
+	border-top: solid  #348017 2px;
+	border-bottom: solid #7FE817 2px;
+	transition: 0.5s;
+}
+
+.registerButton:hover {
+	
+	border-right: solid #4AA02C 2px;
+	border-left: solid #87F717 2px;
+	border-top: solid  #348017 2px;
+	border-bottom: solid #7FE817 2px;
+	transition: 0.5s;
+}
+
+.loginButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.loginButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.loginButton:hover span {
+  padding-right: 20px;
+  font-size: 26px;
+  border-left: #1F45FC;
+  border-top: #2554C7;
+  border-bottom: #2B65EC;
+}
+
+.loginButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.registerButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.registerButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.registerButton:hover span {
+  padding-right: 20px;
+  font-size: 26px;
+}
+
+.registerButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
